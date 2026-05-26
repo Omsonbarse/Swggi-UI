@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+
+    .buttons {
+        display: none;
+    }
+
+    .search-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-icon img {
+        display: block;
+        height: 50;
+        width: 200px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar>img {
+        height: 60px;
+    }
+
+    .top-text {
+        font-size: 25px;
+
+    }
+
+
+    .top-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    /* First card full width */
+    .card1:first-child {
+        grid-column: span 2;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .food-img img {
+        height: 100px;
+        padding-left: 30px;
+
+    }
+
+    .groceries-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 90px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 30px;
+
+    }
+
+    .end-image {
+        display: flex;
+        display: none;
+    }
+
+
+
+
+}

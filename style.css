@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px auto auto auto auto auto auto auto auto;
+
+
+}
+
+.navbar {
+    background-color: #FF5200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar>img {
+    height: 150px;
+    margin: 0;
+}
+
+.search-icon {
+    display: none;
+}
+
+
+.buttons button {
+    height: 60px;
+    width: 140px;
+    margin-right: 60px;
+    border-radius: 15px;
+
+}
+
+.button1 {
+    background-color: #FF5200;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 15px;
+
+}
+
+.button2 {
+    background-color: #FF5200;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 15px;
+
+}
+
+.button3 {
+    background-color: #FF5200;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.button4 {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.top-text {
+    background-color: #FF5200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.top-cards {
+    background-color: #FF5200;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    justify-content: center;
+}
+
+.card1 img {
+    height: 350px;
+
+}
+
+
+.mid-food {
+    background-color: white;
+
+}
+
+.food-img img {
+    height: 200px;
+
+}
+
+.food-img img {
+    height: 200px;
+
+}
+
+
+.groseris-img {
+    background-color: white;
+
+}
+
+
+.cities {
+    background-color: white;
+}
+
+.footer {
+    background-color: #F0F0F5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.mid-food h3 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.foot-img {
+    display: flex;
+    justify-items: center;
+}
+
+.groceries-img img {
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+
+
+
+
+}
+
+.groseris h3 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+
+.scanner-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.scanner-container img {
+    width: 90%;
+    margin-top: 80px;
+}
+
+.cities h3 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.btns button {
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border-radius: 1px solid grey;
+}
+
+.logo img {
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.same {
+    margin-top: 90px;
+}
+
+.Company-text {
+    line-height: 30px;
+}
+
+.Company-text p {
+    font-size: 18px;
+    color: rgb(89, 89, 89);
+}
+
+.line {
+    grid-column: 1 / -1;
+    /* take full row in grid */
+    width: 80%;
+    justify-self: center;
+    border: 1px solid rgb(1, 1, 1);
+}
+
+.end h2 {
+    margin-left: 80px;
+    margin-top: 20px;
+
+
+}
+
+.image1 img {
+    position: absolute;
+    left: 50%;
+
+}
+
+.image2 img {
+    position: absolute;
+    left: 65%;
+
+}
